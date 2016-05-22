@@ -1,0 +1,137 @@
+html {
+	background:url(../img/background.jpg)no-repeat;
+	background-size: cover; 
+	font-size: 14px;
+	}
+
+
+nav {
+		    background-color: rgba(80, 71, 57, 0.6);
+		    color: white;
+		        height: 71px;
+		        position: fixed;
+		        width: 100%;
+		        z-index: 100;
+		        
+		        
+
+
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+/*helper classes*/
+.center{
+	text-align: center;
+}
+
+.full-width{
+	width: 100%;
+}
+
+/*Otherstyle*/
+.home-title{
+	font-family: 'Niconne', cursive;
+	font-size: 3rem;
+}
+
+.poster{
+text-align: center;
+margin-bottom: 30px
+
+}
+
+.poster div{
+
+	width: 30%;
+   
+    margin-left: 11px;
+    margin-top: 0px;
+    display: inline-block;
+    border: 5px solid white;
+    position: relative;
+    transition: all .5s linear;
+}
+
+.poster div:hover {
+      width: 32%;
+      margin: 0;
+}
+
+
+
+
+.poster div img{
+	width: 100%
+	
+}
+
+.poster div h3{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	color: Red;
+	font-size: 2rem;
+	text-align: center;
+	width: 100%;
+	margin:0;
+	transform: translateY(-50%);
+
+
+}
+
+.nav-bar li:hover {
+	background-color: rgba(255,255,255,0.5);
+	cursor: pointer;
+	margin: 20px;
+}
+
+.nav-bar li{
+	display: inline-block;
+
+}
+.nav-bar{
+	margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 7px;
+
+}
+
+.nav-bar li{
+	border: 1px solid white;
+	margin: 10px;
+
+	/*space between a and another object*/
+
+	padding: 10px;
+	/*space between text content and border*/
+	
+	transition: background-color .5s linear, margin.5s linear;
+}
+
+.nav-logo{
+	 width: 50px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+footer{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.32);
+	text-align: center;
+}
+
+footer ul {
+	margin: 0;
+	padding: 20px 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 10px
+}
+footer h1 
